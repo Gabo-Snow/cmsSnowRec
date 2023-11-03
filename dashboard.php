@@ -10,7 +10,8 @@ include('includes/logedHeader.inc.php');
 
 ?>
 
-aqui se van a poder agregar los post, noticias, eventos, y weas 
+DASHBOARD
+aqui los admin van a poder agregar los post 
 
 <?php
 

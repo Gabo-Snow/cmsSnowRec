@@ -13,7 +13,7 @@ var_dump($_POST);
 
 <div class="container mt-5">
     <div class="row justify-content-center">
-        <div class="col-md-6">
+        <div class="col-md-4">
             <form method="post">
                 <!-- Email input -->
                 <div class="form-outline mb-4">
