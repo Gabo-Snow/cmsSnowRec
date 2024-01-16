@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -32,26 +32,23 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="">Noticias</a>
                     </li>
+
                     <li class="nav-item">
-                        <a class="nav-link active" href="">Noticias</a>
+                        <a class="nav-link active" href="#">Artistas</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Gabriel Snow</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Snow Family</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Goldenera</a>
-                    </li>
+
                 </ul>
             </div>
             <div class="d-flex align-items-center">
+                <?php
 
-                <a type="button" class="btn btn-primary me-3" href="/cms/login.php">
-                    Iniciar Sesión
-                </a>
+                logeado();
+
+                ?>
+
             </div>
         </div>
         </div>
     </nav>
+
+    <?php get_mensaje(); ?>

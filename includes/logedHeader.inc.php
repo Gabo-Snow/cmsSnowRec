@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -30,13 +30,21 @@
                         <a class="nav-link active" aria-current="page" href="/cms/">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="">Dashboard</a>
+                        <a class="nav-link active" href="dashboard.php">Dashboard</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Cerrar Sesión</a>
+                        <a class="nav-link active" href="logout.php">Cerrar Sesión</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="editar_mi_usuario.php?id=<?php echo $_SESSION['idusuario']; ?>">Editar Mi Usuario</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="cambiar_pass.php?id=<?php echo $_SESSION['idusuario']; ?>">Cambiar Contraseña</a>
                     </li>
                 </ul>
             </div>
             
         </div>
     </nav>
+
+    <?php get_mensaje(); ?>

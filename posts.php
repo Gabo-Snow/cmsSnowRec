@@ -10,19 +10,17 @@ seguridad();
 include('includes/logedHeader.inc.php');
 
 
-
+var_dump($_SESSION);
 
 ?>
 
 <div class="container mt-5">
     <div class="row justify-content-center">
-        <div class="col-md-6">
-            <h1 class="display-1">Panel</h1>
-            <a href="usuarios.php">Gestión de Usuarios</a>
-            <a href="posts.php">Posts de Usuarios</a>
-
-        </div>
-    </div>
+        <h1 class="display-1">Panel</h1>
+        <a href="usuario.php">Gestión de Usuarios</a>
+        <a href="posts.php">Posts de Usuarios</a>
+        
+</div>
 </div>
 
 <?php
