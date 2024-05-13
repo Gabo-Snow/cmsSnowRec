@@ -4,7 +4,7 @@ function seguridad()
 {
     if (!isset($_SESSION['idusuario'])) {
         echo "Por favor inicia sesión para entrar aquí";
-        header('Location: /cms');
+        header('Location: /cmsSnowRec');
         die();
 
     }
@@ -13,12 +13,12 @@ function seguridad()
 function logeado()
 {
     if (!isset($_SESSION['idusuario'])) {
-        echo '<a type="button" class="btn btn-primary me-3" href="/cms/login.php">
+        echo '<a type="button" class="btn btn-primary me-3" href="/cmsSnowRec/login.php">
         Iniciar Sesión
         </a>';
     } else {
 
-        echo '<a type="button" class="btn btn-primary me-3" href="/cms/dashboard.php">
+        echo '<a type="button" class="btn btn-primary me-3" href="/cmsSnowRec/dashboard.php">
         Panel
         </a>';
     }

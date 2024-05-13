@@ -27,7 +27,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/cms/">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="/cmsSnowRec/">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="dashboard.php">Dashboard</a>

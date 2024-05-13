@@ -37,7 +37,7 @@ if (isset($_POST['email'])) {
 
           set_mensaje("Bienvenido señor " . $_SESSION['usuario']); //agregar función para que cambie de título entre maestro, ingenmiero, doctor, etc. xd
 
-          header('Location: dashboard.php');
+          header('Location: dashboard.php'); 
 
           $stm_resetIntentos = $conectar->prepare('UPDATE acceso SET fallidos = 0 WHERE usuario_idusuario = ?');
           $stm_resetIntentos->bind_param('i', $_SESSION['idusuario']);
